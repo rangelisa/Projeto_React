@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+📊 Projeto React - Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dashboard desenvolvido em React.js com foco em visualização de dados e métricas.
 
-## Available Scripts
+🚀 Sobre o Projeto
 
-In the project directory, you can run:
+Este projeto é uma aplicação web criada com Create React App que apresenta um painel (dashboard) para exibição de informações e indicadores.
 
-### `yarn start`
+O objetivo do projeto é praticar:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Componentização em React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Organização de pastas
 
-### `yarn test`
+Manipulação de dados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Criação de gráficos e indicadores
 
-### `yarn build`
+Boas práticas de front-end
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+JavaScript (ES6+)
 
-### `yarn eject`
+HTML5
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create React App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📂 Estrutura do Projeto
+Projeto_React/
+│
+├── public/          # Arquivos públicos
+├── src/             # Código fonte da aplicação
+│   ├── components/  # Componentes reutilizáveis
+│   ├── pages/       # Páginas da aplicação
+│   └── App.js       # Componente principal
+│
+├── package.json
+└── README.md
+▶️ Como Executar o Projeto
+1️⃣ Clone o repositório
+git clone https://github.com/seu-usuario/Projeto_React.git
+2️⃣ Acesse a pasta do projeto
+cd Projeto_React
+3️⃣ Instale as dependências
 
-## Learn More
+Com Yarn:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+yarn install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ou com NPM:
 
-### Code Splitting
+npm install
+4️⃣ Execute o projeto
+yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ou
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A aplicação abrirá em:
 
-### Making a Progressive Web App
+http://localhost:3000
+📦 Scripts Disponíveis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+No diretório do projeto, você pode executar:
 
-### Advanced Configuration
+yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Executa o app em modo de desenvolvimento.
 
-### Deployment
+yarn test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Inicia o modo de testes interativo.
 
-### `yarn build` fails to minify
+yarn build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cria a versão de produção do app na pasta build.
+
+yarn eject
+
+Remove a configuração padrão do Create React App (irreversível).
+
+🎯 Funcionalidades
+
+📊 Exibição de métricas
+
+📈 Visualização gráfica de dados
+
+📋 Organização em componentes reutilizáveis
+
+🔄 Atualização dinâmica de informações
