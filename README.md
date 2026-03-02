@@ -1,98 +1,101 @@
-📊 Projeto React - Dashboard
+# 📊 Projeto React - Dashboard
 
-Dashboard desenvolvido em React.js com foco em visualização de dados e métricas.
+Dashboard desenvolvido em **React.js** para visualização de métricas e indicadores.
 
-🚀 Sobre o Projeto
+---
 
-Este projeto é uma aplicação web criada com Create React App que apresenta um painel (dashboard) para exibição de informações e indicadores.
+## 🚀 Sobre o Projeto
 
-O objetivo do projeto é praticar:
+O **Projeto React - Dashboard** é uma aplicação web criada com **Create React App**, com foco na construção de interfaces modernas utilizando componentização e boas práticas de desenvolvimento front-end.
 
-Componentização em React
+Este projeto foi desenvolvido para praticar:
 
-Organização de pastas
+- Estruturação de projetos em React
+- Componentização
+- Manipulação e exibição de dados
+- Organização de layout
+- Boas práticas de código
 
-Manipulação de dados
+---
 
-Criação de gráficos e indicadores
+## 🛠️ Tecnologias Utilizadas
 
-Boas práticas de front-end
+- React.js  
+- JavaScript (ES6+)  
+- HTML5  
+- CSS3  
+- Yarn  
+- Create React App  
 
-🛠️ Tecnologias Utilizadas
+---
 
-React.js
-
-JavaScript (ES6+)
-
-HTML5
-
-CSS3
-
-Yarn
-
-Create React App
-
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 Projeto_React/
 │
-├── public/          # Arquivos públicos
-├── src/             # Código fonte da aplicação
-│   ├── components/  # Componentes reutilizáveis
-│   ├── pages/       # Páginas da aplicação
-│   └── App.js       # Componente principal
+├── public/ # Arquivos públicos
+├── src/ # Código fonte da aplicação
+│ ├── components/ # Componentes reutilizáveis
+│ ├── pages/ # Páginas da aplicação
+│ └── App.js # Componente principal
 │
 ├── package.json
 └── README.md
-▶️ Como Executar o Projeto
-1️⃣ Clone o repositório
+
+
+---
+
+## ▶️ Como Executar o Projeto
+
+### 1️⃣ Clone o repositório
 git clone https://github.com/seu-usuario/Projeto_React.git
-2️⃣ Acesse a pasta do projeto
+
+### 2️⃣ Acesse a pasta do projeto
 cd Projeto_React
-3️⃣ Instale as dependências
+
+### 3️⃣ Instale as dependências
 
 Com Yarn:
-
 yarn install
 
 ou com NPM:
-
 npm install
-4️⃣ Execute o projeto
+
+### 4️⃣ Execute o projeto
+
+Com Yarn:
 yarn start
 
-ou
-
+ou com NPM:
 npm start
 
-A aplicação abrirá em:
-
+A aplicação será executada em:
 http://localhost:3000
-📦 Scripts Disponíveis
+
+---
+
+## 📦 Scripts Disponíveis
 
 No diretório do projeto, você pode executar:
 
-yarn start
-
+### `yarn start`
 Executa o app em modo de desenvolvimento.
 
-yarn test
+### `yarn test`
+Inicia o modo interativo de testes.
 
-Inicia o modo de testes interativo.
+### `yarn build`
+Cria a versão otimizada para produção na pasta `build`.
 
-yarn build
+### `yarn eject`
+Remove a configuração padrão do Create React App (ação irreversível).
 
-Cria a versão de produção do app na pasta build.
+---
 
-yarn eject
+## 🎯 Funcionalidades
 
-Remove a configuração padrão do Create React App (irreversível).
+- 📊 Exibição de métricas
+- 📈 Visualização de dados
+- 📋 Organização em componentes reutilizáveis
+- 🔄 Atualização dinâmica da interface
 
-🎯 Funcionalidades
-
-📊 Exibição de métricas
-
-📈 Visualização gráfica de dados
-
-📋 Organização em componentes reutilizáveis
-
-🔄 Atualização dinâmica de informações
+---
